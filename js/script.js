@@ -5,8 +5,9 @@ let totalColor = document.querySelector("#color");
 
 let button = document.querySelector("#consultar");
 
-button.addEventListener("consultar", () => {
+button.addEventListener("click", () => {
   document.querySelector("#total").innerHTML = totalCantidad.value * precio;
-  document.querySelector("#totalCantidad").innerHTML = totalCantidad.value;
-  document.querySelector("#color").style.backgroundColor = color.value;
+  document.querySelector("#fin").innerHTML = totalCantidad.value;
+  document.querySelector("#colorear").style.backgroundColor = totalColor.value;
+  totalColor.value;
 });
