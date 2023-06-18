@@ -1,5 +1,40 @@
 .circulo {
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
+}
+section {
+  grid-area: section;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  width: 25rem;
+}
+img {
+  margin-top: 10px;
+  height: 200px;
+  height: 200px;
+  border-radius: 8%;
+}
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: aqua;
+  color: black;
+  width: 25rem;
+}
+p {
+  margin: 5px;
+}
+button {
+  background-color: aqua;
+  border-radius: 5px;
+  border-color: blue;
+  margin-top: 10px;
 }
